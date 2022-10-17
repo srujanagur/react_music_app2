@@ -1,0 +1,19 @@
+POST http://localhost:3000/api/v1/songs HTTP/1.1
+Content-Type: application/json
+
+{
+	"songName": "Undiporaadhey",
+	"movieName": "Hushaaru",
+	"singer": ["Sid Sriram"],
+    "language": "Telugu",
+    "thumbNail": "http://docs.google.com/uc?export=open&id=15NeEh6yI-ulTut9x5CfzN1ppe_eH74tZ",
+    "audioUrl": "http://docs.google.com/uc?export=open&id=1WgzcM8EnpT7mig_RcpWvGThhHssv_tMJ"
+    
+}
+
+
+
+###
+GET http://localhost:3000/api/v1/songs
+
+
