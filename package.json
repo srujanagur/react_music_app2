@@ -9,7 +9,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node src/server.js",
-    "server": "nodemon src/server.js"
+    "server": "nodemon src/server.js",
+     "heroku-postbuild": "npm install && npm run build"
   },
   "type": "module",
   "author": "",
