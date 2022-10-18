@@ -9,7 +9,10 @@
   "main": "server.js",
   "scripts": {
     "start": "node src/server.js",
-    "server": "nodemon src/server.js"
+    "server": "nodemon src/server.js",
+    
+        "heroku-postbuild": "npm install --prefix client && npm run build --prefix client"
+      
   },
   "type": "module",
   "author": "",
